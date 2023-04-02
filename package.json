@@ -1,0 +1,19 @@
+{
+  "name": "object-oriented-programming-svg-logo-maker",
+  "version": "1.0.0",
+  "description": "Object-Oriented-Programming-SVG-Logo-Maker",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abelZemo/Object-Oriented-Programming-SVG-Logo-Maker"
+  },
+  "author": "abel",
+  "license": "ISC",
+  "dependencies": {
+    "graceful-fs": "^4.2.11",
+    "inquirer": "^8.2.5"
+  }
+}
