@@ -92,20 +92,20 @@ async function init() {
 	
 	//user shape
 	let user_shape;
-	if (user_shape_type === "Square_Shape_SVG" || user_shape_type === "Square_Shape_SVG") {
+	if (user_shape_type === "Square_Shape_SVG" || user_shape_type === "square_shape_svg") {
 		user_shape = new Square_Shape_SVG();
 		console.log("User selected Square_Shape_SVG ");
 	}
-	else if (user_shape_type === "Circle_Shape_SVG" || user_shape_type === "Circle_Shape_SVG") {
+	else if (user_shape_type === "Circle_Shape_SVG" || user_shape_type === "circle_shape_svg") {
 		user_shape = new Circle_Shape_SVG();
 		console.log("User selected Circle_Shape_SVG");
 	}
-	else if (user_shape_type === "Triangle_Shape_SVG" || user_shape_type === "Triangle_Shape_SVG") {
+	else if (user_shape_type === "Triangle_Shape_SVG" || user_shape_type === "triangle_shape_svg") {
 		user_shape = new Triangle_Shape_SVG();
 		console.log("User selected Triangle_Shape_SVG");
 	}
 
-	else if (user_shape_type === "Elpse_Shaped_SVG" || user_shape_type === "Elpse_Shaped_SVG") {
+	else if (user_shape_type === "Elpse_Shaped_SVG" || user_shape_type === "elpse_shaped_svg") {
 		user_shape = new Elpse_Shaped_SVG();
 		console.log("User selected Elpse_Shaped_SVG");
 	}
